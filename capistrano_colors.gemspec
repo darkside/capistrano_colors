@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version = "0.5.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Mathias Stjernstrom"]
+  s.authors = ["Mathias Stjernstrom", "Leonardo Bighetti"]
   s.date = %q{2010-03-09}
   s.description = %q{Simple gem to display colors in capistrano output.}
   s.email = %q{mathias@globalinn.com}

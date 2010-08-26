@@ -24,7 +24,6 @@ module Capistrano
 
     @@color_matchers = []
     
-    alias_method :org_log, :log
 
     def log(level, message, line_prefix=nil) #:nodoc:
       
@@ -66,6 +65,7 @@ module Capistrano
       "\e[#{attribute}#{color}m" + message.strip + "\e[0m#{nl}"
     end
 
+    alias_method :org_log, :log
   end
 
 end

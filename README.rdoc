@@ -3,9 +3,11 @@
 The aim of capistrano_colors is to make the capistrano output more userfriendly.
 When capistrano_colors is included in your deploy.rb capistrano output gets nice and shiny colors.
 
+This gem is a fork of the original capistrano_colors by Mathias Stjernström with some small changes to work with ree and rvm.
+
 == INSTALLATION
 
-   sudo gem install capistrano_colors
+   sudo gem install darkside_capistrano_colors
 
 == USAGE
 

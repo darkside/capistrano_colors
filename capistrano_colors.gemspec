@@ -11,12 +11,12 @@ Gem::Specification.new do |s|
   s.email = %q{mathias@globalinn.com}
   s.extra_rdoc_files = ["README.rdoc", "lib/capistrano/configuration.rb", "lib/capistrano/logger.rb", "lib/capistrano_colors.rb"]
   s.files = ["README.rdoc", "Rakefile", "lib/capistrano/configuration.rb", "lib/capistrano/logger.rb", "lib/capistrano_colors.rb", "Manifest", "capistrano_colors.gemspec"]
-  s.homepage = %q{http://github.com/stjernstrom/capistrano_colors}
+  s.homepage = %q{http://github.com/darkside/capistrano_colors}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Capistrano_colors", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{capistranocolor}
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{Simple gem to display colors in capistrano output.}
+  s.summary = %q{Simple gem to display colors in capistrano output. Fork of Mathias capistrano_colors.}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
